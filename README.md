@@ -3,7 +3,7 @@
 ### Por: Leonardo Abril Blanco
 
 1. Ejercicio Lemon Pie
-    - [Ruta:](https://leonardoabril.github.io/FrontEnd_I/ROOT_LemonPie/)
+    - [Link Lemon Pie](https://leonardoabril.github.io/FrontEnd_I/ROOT_LemonPie/)
 
 2. Ejercicio Pet Shop
-    - [Ruta:](https://leonardoabril.github.io/FrontEnd_I/ROOT_PetShop/)
+    - [Link Pet Shop](https://leonardoabril.github.io/FrontEnd_I/ROOT_PetShop/)
