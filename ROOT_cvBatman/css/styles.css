@@ -1,0 +1,96 @@
+*{
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 20px;
+}
+
+body{
+    background-color: white;
+}
+
+header {
+    background-color: white;
+}
+
+#logoBatman{
+    position: absolute;
+    width: 100px;
+    height: 147px;
+    left: 670px;
+    top: 21px;
+    margin:auto;
+}
+
+h1 {
+    background-color: #C4C4C4;
+    text-transform:uppercase;
+    position: absolute;
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    top: 188px;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 84.69%;
+    text-align: center;
+    padding: 14px;
+}
+
+main {
+    background-color: white;
+    position:absolute;
+    width: 1041px;
+    height: 500px;
+    left: 213px;
+    top: 359px;
+}
+
+h2{
+    background-color: #C4C4C4;
+    text-transform:uppercase;
+    padding-left: 10px;
+}
+
+.negritaCursiva {
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.negrita {
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+dd {
+    margin-left: 75px;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 987px;
+    background-color: #005677;
+}
+
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #005677;
+    text-align: center;
+    padding: 0px;
+}
+
+footer img{
+    padding-left: 20px;
+    background-color: #005677;
+}
