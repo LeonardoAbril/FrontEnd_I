@@ -12,4 +12,4 @@
     - [Link CV Batman](https://leonardoabril.github.io/FrontEnd_I/ROOT_cvBatman/)
 
 4. Ejercicio CV Personal
-    - [Link CV Personal](https://leonardoabril.github.io/FrontEnd_I/ROOT_CV_Leo/)
+    - [Link CV Personal](https://leonardoabril.github.io/FrontEnd_I/ROOT_cvLeo/)
