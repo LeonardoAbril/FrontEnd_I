@@ -1,0 +1,46 @@
+header .ofertas{
+    background-color: #222222;
+    color: white;   
+}
+
+header .ofertas > nav{
+    display: inline-block;
+}
+
+header .ofertas > nav > ul > li{
+    display: inline-block;
+}
+
+header .catDog{
+    background-color: #F0A83E;
+    color: white;
+
+}
+
+header .catDog > nav{
+    display: inline-block;
+}
+
+header .catDog > nav > ul > li{
+    display: inline-block;
+}
+
+main .productosDestacados{
+    text-align: center;
+}
+
+main .productosDestacados > i{
+    color: #F0A83E;
+    font-size: 50px;
+}
+
+main .productosDestacados > nav > ul > li{
+    display: inline-block;
+}
+
+.tarjetasDeProductos > div{
+    display: inline-block;
+    padding: 10px;
+    align-items: center;
+
+}

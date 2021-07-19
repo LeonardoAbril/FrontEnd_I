@@ -29,18 +29,20 @@ header ul li i{
 body{
     font-family:'Source Code Pro', monospace;
     font-size:medium;
+    background-color: white;
+    font-size: 20px;
 }
 
 h2{
+    background-color: rgb(206, 229, 245);
     display:block;
     margin:auto;
+    text-transform: capitalize;
 }
 
 dd {
-    margin-left: 100px;
+    margin-left: 130px;
 }
-
-
 
 footer{
     background-image: url("../img/Fondo_abs_Azul.jpg");
@@ -48,7 +50,16 @@ footer{
     background-size: cover;
     font-family:'Exo', sans-serif;
     font-weight:bold;
-    Color: rgb(15, 1, 1); 
-    text-transform:capitalize;
+    Color: rgb(15, 1, 1);
+    font-size: 20px;
     text-align: center;
+}
+
+.fa-linkedin{
+    font-size: 50px;
+    padding-right: 30px;
+}
+
+.fa-instagram-square{
+    font-size: 50px;
 }
