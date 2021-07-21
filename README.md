@@ -15,7 +15,7 @@
     - [Link CV Personal](https://leonardoabril.github.io/FrontEnd_I/ROOT_cvLeo/)
 
 5. Ejercicio Tarjetas Batman
-    - [Link CV Personal](https://leonardoabril.github.io/FrontEnd_I/ROOT_cvTarjetas/)
+    - [Link Tarjetas Batman](https://leonardoabril.github.io/FrontEnd_I/ROOT_cvTarjetas/)
 
 6. Ejercicio CV Pizza
-    - [Link CV Personal](https://leonardoabril.github.io/FrontEnd_I/ROOT_Pizza/)
+    - [Link Pizza](https://leonardoabril.github.io/FrontEnd_I/ROOT_Pizza/)
