@@ -20,6 +20,11 @@ header nav ul{
 header nav ul li a{
     padding: 10px;
     color: white;
+    margin-right: 20px;
+}
+
+header img{
+    margin-left: 20px;
 }
 
 main{
@@ -98,7 +103,10 @@ footer ul li{
 
 footer ul li a{
     padding: 5px;
-    margin-left: 10px;
+    margin-left: 20px;
     color: white;
+}
 
+footer img{
+    margin-right: 20px;
 }
