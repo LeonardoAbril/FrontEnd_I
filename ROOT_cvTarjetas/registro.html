@@ -28,14 +28,18 @@
             </div>
             <div>
             <form action="/login" method="POST">
-                <label for="Nombre y Apellido">Nombre y Apellido</label> 
-                <input type="text" name="Nombre y Apellido" id="Nombre y Apellido">
-                <label for="email">Correo Electronico:</label> 
+                <label for="Nombre y Apellido"></label> 
+                <input type="text" name="Nombre y Apellido" id="Nombre y Apellido" value="Nombre y Apellido">
+                <label for="email"></label> 
                 <input type="email" name="email" id="Correo Electronico" value="Correo Electronico">
                 <label for="Contraseña">Contraseña:</label> 
                 <input type="password" name="Contraseña" id="Contraseña">
-                <label for="Pais">Pais</label> 
-                <input type="text" name="Pais" id="Pais">
+                <label for="Pais"></label> 
+                <input type="text" name="Pais" id="Pais" value="Pais">
+
+                <input type="checkbox" id="condiciones">
+                <label for="condiciones" class="label-check">Acepto términos y condiciones</label>
+
                 <div class ="botones">
                     <button type="reset" value="Resetear">Resetear</button>
                     <button type="submit" value="Registrar">Registrar</button>
