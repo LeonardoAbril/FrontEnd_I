@@ -1,6 +1,8 @@
-header .ofertas{
+.ofertas{
     background-color: #222222;
-    color: white;   
+    color: white;
+    justify-content: space-between;
+
 }
 
 header .ofertas > nav{
@@ -25,17 +27,32 @@ header .catDog > nav > ul > li{
     display: inline-block;
 }
 
-main .productosDestacados{
-    text-align: center;
+.banner{
+    background-image: url("../img/comida_perro.png");
+    background-repeat: no-repeat;
+    height: 409px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
 }
 
-main .productosDestacados > i{
+.banner>div{
+    justify-content: space-between;
+}
+
+.productosDestacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productosDestacados > img{
     color: #F0A83E;
     font-size: 50px;
 }
 
-main .productosDestacados > nav > ul > li{
-    display: inline-block;
+.productosDestacados nav>ul>{
+    flex-direction: column;
 }
 
 .tarjetasDeProductos > div{

@@ -33,27 +33,25 @@ main{
     align-items: center;
     justify-content:center;
     padding: 20px;
-
 }
 
 .repartidor{
-    display: flex;
-    padding: 10px;
-    align-items: flex-start;
-}
-
-.repartidor img{
+    background-image: url("../img/repartidor.jpg");
     box-shadow: 0px 3px 5px;
     height: 350px;
     width: 470px;
+    display: flex;
+    padding: 10px;
+    align-items:flex-start;
+    justify-content: center;
 }
 
 .repartidor p{
-    position: absolute;
     padding: 10px;
     color: red;
     font-size: 24px;
     font-weight: bold;
+
 }
 
 .repartidor>p>span{
