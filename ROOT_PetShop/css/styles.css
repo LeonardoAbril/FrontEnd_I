@@ -1,30 +1,68 @@
-.ofertas{
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
     background-color: #222222;
     color: white;
     justify-content: space-between;
-
+    display: flex;
+    flex-direction: column;
 }
 
-header .ofertas > nav{
+.ofertas > nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.ofertas > nav > ul > li{
     display: inline-block;
+    padding-right: 20px;
 }
 
-header .ofertas > nav > ul > li{
-    display: inline-block;
-}
-
-header .catDog{
+.catDog{
     background-color: #F0A83E;
     color: white;
-
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-header .catDog > nav{
-    display: inline-block;
+.catDog > nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
 }
 
-header .catDog > nav > ul > li{
+.catDog > nav > ul > li{
     display: inline-block;
+    padding-left: 10px;
+}
+
+nav ul li a::before{
+    content: "\f1b0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    padding-right: 15px;
+}
+
+a:hover{
+    -webkit-text-stroke: 1px green;
+    color: transparent;
+}
+
+main{
+    background-color: white;
 }
 
 .banner{
@@ -32,32 +70,263 @@ header .catDog > nav > ul > li{
     background-repeat: no-repeat;
     height: 409px;
     display: flex;
-    align-items:flex-start;
-    justify-content: center;
+    align-items:center;
+    justify-content:flex-end;
+    padding-right: 20px;
 }
 
 .banner>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    height: 160px;
+}
+
+h2{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.banner>div>p{
+    background-color: #F0A83E;
+    padding:20px;
+    color: white;
 }
 
 .productosDestacados{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px;
 }
 
-.productosDestacados > img{
-    color: #F0A83E;
+.productosDestacados>i{
     font-size: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    -webkit-text-stroke: 2px #F0A83E;
+    color: transparent;
 }
 
-.productosDestacados nav>ul>{
-    flex-direction: column;
+.productosDestacados>nav{
+    padding: 20px;
 }
 
-.tarjetasDeProductos > div{
+
+.productosDestacados nav>ul>li{
     display: inline-block;
     padding: 10px;
-    align-items: center;
+}
 
+.tarjetasDeProductos{
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.tarjetasDeProductos>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+}
+
+h4{
+    font-size: 25px;
+    font-family: 'Roboto';
+    padding: 30px;
+    align-self: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px 10px;
+    font-size: 20px;
+}
+
+input {
+    background-color: #3C2313;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+    padding: 10px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    outline: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+button[type="reset"] {
+    background-color: #888888;
+    height: 34px;
+    Width: 110px;
+    padding-top: 5px;
+    padding-left: 20px;
+    border: 2px solid #fff;
+    margin-top: 30px;
+    border-radius: 15px;
+    align-self: center;
+    color: white;
+    font-size: 16px;
+    
+}
+
+button[type="submit"]{
+    background-color: #F0A83E;
+    height: 34px;
+    Width: 110px;
+    padding-top: 5px;
+    padding-left: 20px;
+    border: 2px solid #fff;
+    margin-top: 30px;
+    border-radius: 15px;
+    align-self: center;
+    color: white;
+    font-size: 16px;
+}
+
+form label{
+    padding: 10px;
+}
+
+.Suscribcion{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.parte1{
+    display: inline-flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.parte1>h3{
+    padding-left: 20px;
+}
+
+.parte2{
+    display: inline-flex;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #3C2313;
+    color:white;
+}
+
+.Localidad{
+    display: inline-flex;
+    justify-content:start;
+    align-items: center;
+}
+
+.marker{
+    background-color: #8A8787;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    padding-top: 5px;
+    margin: 10px;
+}
+
+.tele{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-phone-alt{
+    background-color: #8A8787;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.telefono{
+    display: inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+
+.tex{
+    padding: 20px;
+    font-size: 10px;
+}
+
+h3{
+    font-size: 20px;
+    color:white;
+    
+}
+
+.telefono>h3{
+    font-size: 20px;
+    color:white;
+    padding-left: 20px;
+}
+
+.imgPerritos{
+    align-self: center;
+    padding-right: 20px;
+}
+
+footer>p{
+    display:flex;
+    background-color: black;
+    color: white;
+    align-self: center;
+}
+
+nav ul li a:visited {
+    background-color: rgb(234, 0, 255); 
+    border-color: rgb(161, 17, 89); 
+    color: blueviolet;
 }
